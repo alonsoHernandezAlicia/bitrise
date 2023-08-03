@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "B65967BA-9C84-40D0-9DDF-20FA21DB37F5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:iOSAvanzadoOpenBank.xcodeproj",
+      "identifier" : "8747F4FF2A69752E00D4E7A8",
+      "name" : "iOSAvanzadoOpenBank"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSAvanzadoOpenBank.xcodeproj",
+        "identifier" : "8747F5152A69753000D4E7A8",
+        "name" : "iOSAvanzadoOpenBankTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSAvanzadoOpenBank.xcodeproj",
+        "identifier" : "8747F51F2A69753000D4E7A8",
+        "name" : "iOSAvanzadoOpenBankUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

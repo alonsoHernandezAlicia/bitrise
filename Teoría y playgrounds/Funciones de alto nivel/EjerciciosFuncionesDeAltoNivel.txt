@@ -1,0 +1,38 @@
+--------------------EJERCICIO 1--------------------
+Debes construir una función que permita procesar todos los caracteres de una cadena de forma que sean sustituidos por otro.
+La sustituciones que buscamos son:
+Convertir cualquier consonante en su mayúscula
+Eliminar todas las ocurrencias de vocales (minúsculas o mayúsculas)
+
+
+
+--------------------EJERCICIO 2--------------------
+Crea una función que reciba dos cadenas de texto de entrada, una lista y una función de filtrado.
+La función debe devolver una nueva lista en la que solo figuren los elementos que cumplan con la función de filtrado.
+
+
+
+--------------------EJERCICIO 3--------------------
+Utiliza closures para duplicar cada carácter hacer mayúsculas las vocales y minúsculas el resto de caracteres eliminar las letras h (son mudas) cambiar las óes por caritas sonrientes (elige si emoticono o la secuencia :)
+
+
+--------------------EJERCICIO 4--------------------
+ Extraer todas las palabras que empiezan por vocal de la siguiente lista ["Destino", "Inmortal", "", "Camino", "Aventura", "Exótico", "Atemporal", "deslumbrante", "apasionado", "Fascinante", "Misterioso"]
+
+Todos los números que al ser divididos por 6 dan de resto 2 de una lista de números cualquiera
+
+
+
+--------------------EJERCICIO 5--------------------
+ Calcular el total de la compra:.
+ productos = [("Camiseta", 15.99, 2),
+           ("Pantalón", 25.50, 1),
+           ("Zapatos", 50.00, 1),
+           ("Reloj", 70.25, 3),
+           ("Gorra", 10.00, 2),
+           ("Bolso", 35.99, 1),
+           ("Bufanda", 12.50, 4),
+           ("Chaqueta", 89.99, 1)]
+
+
+

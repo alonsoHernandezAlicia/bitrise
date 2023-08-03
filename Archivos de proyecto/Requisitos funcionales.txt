@@ -1,0 +1,5 @@
+Inicio de sesión con email y contraseña
+Vista de héroes en una lista con foto, nombre y descripción
+Imagen de fondo en el login con ambientación de Dragon Ball
+Cierre de sesión
+Ajustes

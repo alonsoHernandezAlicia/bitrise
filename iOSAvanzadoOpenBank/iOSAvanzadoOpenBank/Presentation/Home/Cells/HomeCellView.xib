@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22113.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeCellViewController" customModule="iOSAvanzadoOpenBank" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeCellReuseIdentifier" id="WFB-gy-zvF" customClass="HomeCellViewController" customModule="iOSAvanzadoOpenBank" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WFB-gy-zvF" id="4XQ-3X-ESk">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k3i-B1-JH2">
+                        <rect key="frame" x="0.0" y="4" width="130" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="pOj-NY-QxS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Hero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnX-7o-OZU">
+                        <rect key="frame" x="140" y="4" width="33.666666666666657" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTc-fa-IQP">
+                        <rect key="frame" x="140" y="31" width="231" height="38"/>
+                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sem nec sem sodales tristique. Nulla facilisi. Suspendisse potenti. Quisque in luctus orci. Aliquam erat volutpat. Integer eu semper lorem. Morbi auctor, risus eget eleifend interdum, enim mauris sagittis erat, at volutpat nulla mauris sed tellus. Duis at ligula ac ante gravida facilisis. Sed pharetra, lectus sed congue tincidunt, arcu risus tincidunt tellus, in consequat ligula erat id tortor. </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k3i-B1-JH2" firstAttribute="leading" secondItem="4XQ-3X-ESk" secondAttribute="leading" id="0iE-03-aLX"/>
+                    <constraint firstAttribute="bottom" secondItem="k3i-B1-JH2" secondAttribute="bottom" constant="4" id="5Xe-bL-cXu"/>
+                    <constraint firstItem="QnX-7o-OZU" firstAttribute="top" secondItem="4XQ-3X-ESk" secondAttribute="top" constant="4" id="8pc-50-55d"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wTc-fa-IQP" secondAttribute="trailing" constant="19" id="LcB-Lh-RSd"/>
+                    <constraint firstItem="wTc-fa-IQP" firstAttribute="leading" secondItem="k3i-B1-JH2" secondAttribute="trailing" constant="10" id="SOt-Qw-rGn"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wTc-fa-IQP" secondAttribute="bottom" constant="4" id="c4h-6z-odW"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QnX-7o-OZU" secondAttribute="trailing" constant="19" id="g9V-If-2x1"/>
+                    <constraint firstItem="QnX-7o-OZU" firstAttribute="leading" secondItem="k3i-B1-JH2" secondAttribute="trailing" constant="10" id="hnc-hy-lRN"/>
+                    <constraint firstItem="wTc-fa-IQP" firstAttribute="top" secondItem="QnX-7o-OZU" secondAttribute="bottom" constant="10" id="jUj-2M-FKn"/>
+                    <constraint firstItem="k3i-B1-JH2" firstAttribute="top" secondItem="4XQ-3X-ESk" secondAttribute="top" constant="4" id="qGO-QM-3ky"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="heroDescription" destination="wTc-fa-IQP" id="fQ4-0k-fc6"/>
+                <outlet property="heroImage" destination="k3i-B1-JH2" id="zsx-Ew-ed8"/>
+                <outlet property="heroName" destination="QnX-7o-OZU" id="h5s-1F-FSr"/>
+            </connections>
+            <point key="canvasLocation" x="-135" y="-87"/>
+        </tableViewCell>
+    </objects>
+</document>
